@@ -26,7 +26,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="• مسح •", callback_data="close")]]
+    [[InlineKeyboardButton(text="•Del•", callback_data="close")]]
 )
 
 
@@ -48,20 +48,20 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="‹ اضف البوت في مجموعتك ›",
+            text="•Add BoT tO uR Group•",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="•Operating Orders•", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="•Source VebThon•", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text=""•Support Group•, url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="•Support Group•", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
             text="•Developer•", url="https://t.me/DevEviI"
         ),
-        InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="•Owner•", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -69,7 +69,7 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="‹ اضف البوت في مجموعتك ›",
+            text="•Add BoT tO uR Group•",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
@@ -81,7 +81,7 @@ gp_buttons = [
         InlineKeyboardButton(
             text="•Developer•", url="https://t.me/DevEviI"
         ),
-        InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="•Owner•", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -89,25 +89,25 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="• اوامࢪ التشغيل •",
+            text="•Operating Orders•",
             callback_data="fallen_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="• اوامࢪ المطور •", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="• اوامࢪ المالك •", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="•Developer Orders•", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="•Owner's orders•", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_home"),
-        InlineKeyboardButton(text="• مسح •", callback_data="close"),
+        InlineKeyboardButton(text="•Back•", callback_data="fallen_home"),
+        InlineKeyboardButton(text="•Del•", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="•Support Group•", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_help"),
-        InlineKeyboardButton(text="• مسح •", callback_data="close"),
+        InlineKeyboardButton(text="•Back•", callback_data="fallen_help"),
+        InlineKeyboardButton(text="•Del•", callback_data="close"),
     ],
 ]
