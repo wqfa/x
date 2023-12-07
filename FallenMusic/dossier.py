@@ -23,29 +23,22 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
-‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ ⦔ ♢━‌‌‏⌯⊷≫
-
-⎊ اهــلا بـك » {0}
-
-⎊ انـا بــوت » {1}
-
-⎊ اســتـطـيـع تـشـغـيـل الـقـرآن الـكـريـم
-
-⎊ فــي الــــــمــــكـــالــمــات الــصــوتــيـــة
-
-⎊ تـابـع الازرار بـالاسفل لـمعرفة الاوامـࢪ
-
-‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ ⦔ ♢━‌‌‏⌯⊷≫
+‌‌‏⋘━─━─━𓆩VebThon𓆪‌━─━─━⋙
+- Hello » {0} 
+- I am a BoT ThaT CaN OpEraTe
+- iN VoiCe CalLs
+- Follow ThE Buttons BeLow tO Learn ThE Commands
+⋘━─━─━𓆩VebThon𓆪‌━─━─━⋙
 """
 
 START_TEXT = """
-⋘━─━─━𓆩XF𓆪‌━─━─━⋙‏
+⋘━─━─━𓆩VebThon𓆪‌━─━─━⋙‏
 - Hello » {0} 
 - I am a BoT ThaT CaN OpEraTe
 - SonGs iN Groups
 - To Know ThE OpeRaTinG Orders
 - EnTeR ThE BoT
-⋘━─━─━𓆩XF𓆪‌━─━─━⋙‏
+⋘━─━─━𓆩VebThon𓆪‌━─━─━⋙‏
 """
 
 HELP_TEXT = f"""
