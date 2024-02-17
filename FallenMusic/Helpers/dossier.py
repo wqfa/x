@@ -23,6 +23,7 @@
 from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
+
 ‌‌‏⋘━─━─━𓆩VebThon𓆪‌━─━─━⋙
 - Hello » {0} 
 - I am a BoT ThaT CaN OpEraTe
@@ -32,6 +33,7 @@ PM_START_TEXT = """
 """
 
 START_TEXT = """
+
 ⋘━─━─━𓆩VebThon𓆪‌━─━─━⋙‏
 - Hello » {0} 
 - I am a BoT ThaT CaN OpEraTe
